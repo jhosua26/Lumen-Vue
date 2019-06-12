@@ -27,6 +27,7 @@ class ComposerStaticInit4ce3c63a5cbac642d8947367a792860a
         ),
         'W' => 
         array (
+            'Wn\\Generators\\' => 14,
             'Webmozart\\Assert\\' => 17,
         ),
         'S' => 
@@ -96,6 +97,7 @@ class ComposerStaticInit4ce3c63a5cbac642d8947367a792860a
         ),
         'F' => 
         array (
+            'Firebase\\JWT\\' => 13,
             'FastRoute\\' => 10,
             'Faker\\' => 6,
         ),
@@ -128,6 +130,10 @@ class ComposerStaticInit4ce3c63a5cbac642d8947367a792860a
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'Wn\\Generators\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wn/lumen-generators/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -320,6 +326,10 @@ class ComposerStaticInit4ce3c63a5cbac642d8947367a792860a
         'Illuminate\\Auth\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/auth',
+        ),
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'FastRoute\\' => 
         array (
@@ -1022,6 +1032,10 @@ class ComposerStaticInit4ce3c63a5cbac642d8947367a792860a
         'FastRoute\\RouteCollector' => __DIR__ . '/..' . '/nikic/fast-route/src/RouteCollector.php',
         'FastRoute\\RouteParser' => __DIR__ . '/..' . '/nikic/fast-route/src/RouteParser.php',
         'FastRoute\\RouteParser\\Std' => __DIR__ . '/..' . '/nikic/fast-route/src/RouteParser/Std.php',
+        'Firebase\\JWT\\BeforeValidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/BeforeValidException.php',
+        'Firebase\\JWT\\ExpiredException' => __DIR__ . '/..' . '/firebase/php-jwt/src/ExpiredException.php',
+        'Firebase\\JWT\\JWT' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWT.php',
+        'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -3138,7 +3152,29 @@ class ComposerStaticInit4ce3c63a5cbac642d8947367a792860a
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'UserTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserTableSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
+        'Wn\\Generators\\Argument\\ArgumentFormat' => __DIR__ . '/..' . '/wn/lumen-generators/src/Argument/ArgumentFormat.php',
+        'Wn\\Generators\\Argument\\ArgumentFormatLoader' => __DIR__ . '/..' . '/wn/lumen-generators/src/Argument/ArgumentFormatLoader.php',
+        'Wn\\Generators\\Argument\\ArgumentParser' => __DIR__ . '/..' . '/wn/lumen-generators/src/Argument/ArgumentParser.php',
+        'Wn\\Generators\\CommandsServiceProvider' => __DIR__ . '/..' . '/wn/lumen-generators/src/CommandsServiceProvider.php',
+        'Wn\\Generators\\Commands\\BaseCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/BaseCommand.php',
+        'Wn\\Generators\\Commands\\ControllerCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/ControllerCommand.php',
+        'Wn\\Generators\\Commands\\ControllerRestActionsCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/ControllerRestActionsCommand.php',
+        'Wn\\Generators\\Commands\\FactoryCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/FactoryCommand.php',
+        'Wn\\Generators\\Commands\\MigrationCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/MigrationCommand.php',
+        'Wn\\Generators\\Commands\\ModelCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/ModelCommand.php',
+        'Wn\\Generators\\Commands\\PivotSeederCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/PivotSeederCommand.php',
+        'Wn\\Generators\\Commands\\PivotTableCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/PivotTableCommand.php',
+        'Wn\\Generators\\Commands\\ResourceCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/ResourceCommand.php',
+        'Wn\\Generators\\Commands\\ResourcesCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/ResourcesCommand.php',
+        'Wn\\Generators\\Commands\\RouteCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/RouteCommand.php',
+        'Wn\\Generators\\Commands\\SeederCommand' => __DIR__ . '/..' . '/wn/lumen-generators/src/Commands/SeederCommand.php',
+        'Wn\\Generators\\Exceptions\\ArgumentFormatException' => __DIR__ . '/..' . '/wn/lumen-generators/src/Exceptions/ArgumentFormatException.php',
+        'Wn\\Generators\\Exceptions\\ArgumentParserException' => __DIR__ . '/..' . '/wn/lumen-generators/src/Exceptions/ArgumentParserException.php',
+        'Wn\\Generators\\Exceptions\\TemplateException' => __DIR__ . '/..' . '/wn/lumen-generators/src/Exceptions/TemplateException.php',
+        'Wn\\Generators\\Template\\Template' => __DIR__ . '/..' . '/wn/lumen-generators/src/Template/Template.php',
+        'Wn\\Generators\\Template\\TemplateLoader' => __DIR__ . '/..' . '/wn/lumen-generators/src/Template/TemplateLoader.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
